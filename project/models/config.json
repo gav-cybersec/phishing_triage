@@ -1,0 +1,62 @@
+{
+  "seed": 520,
+  "features": [
+    "url_length",
+    "hostname_length",
+    "path_length",
+    "query_length",
+    "subdomain_count",
+    "tld_length",
+    "num_dots",
+    "num_hyphens",
+    "num_underscores",
+    "num_slashes",
+    "num_at",
+    "num_question",
+    "num_equals",
+    "num_ampersand",
+    "num_percent",
+    "path_depth",
+    "digit_ratio",
+    "letter_ratio",
+    "special_char_ratio",
+    "hostname_digit_ratio",
+    "has_ip_host",
+    "has_port",
+    "is_shortener",
+    "url_entropy"
+  ],
+  "max_fpr_budget": 0.01,
+  "model_settings": {
+    "Logistic Regression": {
+      "C": 1
+    },
+    "Random Forest": {
+      "n_estimators": 200,
+      "max_depth": 10
+    }
+  },
+  "thresholds": {
+    "Logistic Regression": {
+      "default": 0.5,
+      "tuned": 0.7518745354824665
+    },
+    "Random Forest": {
+      "default": 0.5,
+      "tuned": 0.6599622550670816
+    }
+  },
+  "split": {
+    "train": 166036,
+    "val": 33964,
+    "test_primary": 32472,
+    "secondary": 510823
+  },
+  "versions": {
+    "python": "3.14.6",
+    "scikit-learn": "1.9.0",
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "joblib": "1.5.3"
+  }
+}

@@ -1,0 +1,9 @@
+dataset,model,threshold_type,recall,fpr,phish_caught_per_1000_phish,phish_missed_per_1000_phish,unnecessary_reviews_per_1000_legit,assumed_alerts_per_1000_urls,assumed_alert_precision
+primary_test,Logistic Regression,default,0.6568760475696385,0.05009276437847866,657.0,343.0,50.1,56.2,0.117
+primary_test,Logistic Regression,tuned,0.5710751057546493,0.013087298801584516,571.0,429.0,13.1,18.7,0.306
+primary_test,Random Forest,default,0.6484156756325326,0.020358020358020357,648.0,352.0,20.4,26.6,0.243
+primary_test,Random Forest,tuned,0.6222364115252614,0.007872436443865016,622.0,378.0,7.9,14.0,0.444
+secondary,Logistic Regression,default,0.8400737982472917,0.9276850298152309,840.0,160.0,927.7,926.8,0.009
+secondary,Logistic Regression,tuned,0.803410918990674,0.9035650294360229,803.0,197.0,903.6,902.6,0.009
+secondary,Random Forest,default,0.8274515980245469,0.9242200164955491,827.0,173.0,924.2,923.3,0.009
+secondary,Random Forest,tuned,0.8186543069602097,0.9213830664656865,819.0,181.0,921.4,920.4,0.009

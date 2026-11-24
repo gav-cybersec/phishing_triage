@@ -1,0 +1,17 @@
+dataset,model,class,group,n,share_of_class,flag_rate
+primary_test,Logistic Regression,legitimate,bare domain,19943,1.0,0.013087298801584516
+primary_test,Logistic Regression,legitimate,has path/query,0,0.0,
+primary_test,Logistic Regression,phishing,bare domain,7114,0.5678026977412404,0.24458813606972168
+primary_test,Logistic Regression,phishing,has path/query,5415,0.4321973022587597,1.0
+primary_test,Random Forest,legitimate,bare domain,19943,1.0,0.007872436443865016
+primary_test,Random Forest,legitimate,has path/query,0,0.0,
+primary_test,Random Forest,phishing,bare domain,7114,0.5678026977412404,0.33469215631149846
+primary_test,Random Forest,phishing,has path/query,5415,0.4321973022587597,1.0
+secondary,Logistic Regression,legitimate,bare domain,46168,0.10942047533725814,0.11867527291630567
+secondary,Logistic Regression,legitimate,has path/query,375764,0.8905795246627418,1.0
+secondary,Logistic Regression,phishing,bare domain,22991,0.2586426072380781,0.2402244356487321
+secondary,Logistic Regression,phishing,has path/query,65900,0.7413573927619219,0.9998937784522003
+secondary,Random Forest,legitimate,bare domain,46168,0.10942047533725814,0.2815369953214348
+secondary,Random Forest,legitimate,has path/query,375764,0.8905795246627418,0.9999973387551762
+secondary,Random Forest,phishing,bare domain,22991,0.2586426072380781,0.29889956939672047
+secondary,Random Forest,phishing,has path/query,65900,0.7413573927619219,0.9999848254931715

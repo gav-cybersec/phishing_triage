@@ -1,0 +1,11 @@
+model,settings,val_ap,val_f1_at_0.5
+Logistic Regression,{'C': 0.01},0.8712938419714648,0.7829352929169218
+Logistic Regression,{'C': 0.1},0.8721881036904099,0.7833680173011792
+Logistic Regression,{'C': 1},0.8723035643588433,0.7830804372654593
+Logistic Regression,{'C': 10},0.8722625628470182,0.7831300730105641
+Random Forest,"{'n_estimators': 100, 'max_depth': 10}",0.8922691367488549,0.793424473706282
+Random Forest,"{'n_estimators': 100, 'max_depth': 20}",0.8882303218454645,0.7935505046360877
+Random Forest,"{'n_estimators': 100, 'max_depth': None}",0.8836206271253471,0.7917313506005392
+Random Forest,"{'n_estimators': 200, 'max_depth': 10}",0.8924060146178101,0.7929182748783353
+Random Forest,"{'n_estimators': 200, 'max_depth': 20}",0.8883615215747633,0.7928979491184086
+Random Forest,"{'n_estimators': 200, 'max_depth': None}",0.8839559808356011,0.7915321427111855

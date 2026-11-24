@@ -1,0 +1,5 @@
+dataset,class,n,share_https,share_www,median_url_length,median_subdomains,share_ip_host,median_digit_ratio
+primary,legitimate,134807,1.0,1.0,15.0,0.0,0.0,0.0
+primary,phishing,97665,0.487,0.417,25.0,1.0,0.006,0.0
+secondary,legitimate,421932,0.004,0.028,46.0,0.0,0.0,0.032
+secondary,phishing,88891,0.072,0.395,30.0,0.0,0.004,0.0

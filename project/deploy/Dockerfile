@@ -1,5 +1,5 @@
 # The Python version here is rewritten by the training notebook to match the environment that trained the models
-FROM python:3.14.6
+FROM python:3.14-slim
 
 # Hugging Face Spaces runs containers as user 1000
 RUN useradd -m -u 1000 user
